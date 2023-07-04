@@ -1,0 +1,56 @@
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #312e2b;
+  height: 93vh;
+}
+
+.nome {
+  display: flex;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 500px; */
+  height: 500px;
+  border-radius: 8px;
+  background-color: #b8b08d;
+}
+
+.nome_peca {
+  background-color: #362b15;
+}
+
+/* .bloco_foto {
+  width: 80px;
+  height: 150px;
+} */
+
+.tabuleiro {
+  display: flex;
+  justify-content: space-around
+}
+.tabuleiro img {
+  display: flex;
+  justify-content: flex-end;
+  width: 370px;
+  height: 370px;
+  margin-inline: 20px;
+}
+
+.obs_peca {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 2px;
+  background-color: #362b15;
+}
+
+.text {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+}
